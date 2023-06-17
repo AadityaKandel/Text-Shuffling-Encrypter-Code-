@@ -578,6 +578,7 @@ def start_the_backup(called_or_not):
 	global total_files
 
 	backup_root = Tk()
+	backup_root.geometry('600x150')
 	backup_root.iconbitmap('icon.ico')
 	if called_or_not == False:
 		backup_root.title('Backup')
@@ -732,6 +733,7 @@ def multi_encrypt():
 				pass
 
 			multi_root = Tk()
+			multi_root.geometry('600x150')
 			multi_root.iconbitmap('icon.ico')
 			multi_root.title('Multi Encrypt')
 
@@ -798,6 +800,7 @@ Remember That It Only Works For The Files That You Have Already Encrypted')
 		else:
 			
 			multi_decrypt_root = Tk()
+			multi_decrypt_root.geometry('600x150')
 			multi_decrypt_root.title('Multi Decrypt')
 			multi_decrypt_root.iconbitmap('icon.ico')
 
